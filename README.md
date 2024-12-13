@@ -24,7 +24,7 @@ between facing up, down, left and right.
 
 - _Dialogue System_
 
-  The static class DialogueHandler.cs handles all Dialogue. When objects which to put a sequence of text on the screen,
+  The static class DialogueHandler.cs handles all Dialogue. When objects wish to put a sequence of text on the screen,
 they pass a string[] object containing the dialogue lines to the appropriate method in DialogueHandler.cs. The DialogueHandler ensures that
 the panels and text appear, along with Eleanor and Hazel's profile pictures.
 Funnily enough, the hardest part of implementing this had to do with my choice to have the Dialogue wait for a click to continue as a coroutine.
