@@ -10,7 +10,7 @@ and the pair are thrown into a dream-like version of Eleanor's own past. They mu
 
 **How to Play**
 
-Create a new project in Unity and replace its Assets folder with this one. Then, open SampleScene to play. 
+Download the repository, and either open directly with Unity as a new project, or open the executable folder and run the .exe executable.  
 
 Movement: WASD. 
 To interact with the environment: Click the object of interest to investigate. 
