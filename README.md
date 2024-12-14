@@ -28,8 +28,7 @@ between facing up, down, left and right.
 they pass a string[] object containing the dialogue lines to the appropriate method in DialogueHandler.cs. The DialogueHandler ensures that
 the panels and text appear, along with Eleanor and Hazel's profile pictures.
 Funnily enough, the hardest part of implementing this had to do with my choice to have the Dialogue wait for a click to continue as a coroutine.
-StartCoroutine() is a method in MonoBehaviour, from which static classes cannot inherit. Thus, in order to start the coroutine, I had to create the
-method Util.StartCoroutineFromStatic(), which creates an non-static class which can call StartCoroutine() on behalf of the static class calling it.
+StartCoroutine() is a method in MonoBehaviour, from which static classes cannot inherit. Thus, in order to start the coroutine, I had Util define a non-static class which can call StartCoroutine() on behalf of other static classes through Util.StartCoroutineFromStatic().
 
 - _Interactable Objects_
   
