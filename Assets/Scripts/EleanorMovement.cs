@@ -34,13 +34,6 @@ public class EleanorMovement : MonoBehaviour
         if (!moved) { 
             Debug.Log("Wasn't able to move"); 
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape)) { 
-            if (!Util.PopUpShown & !DialogueHandler.IsTextBoxShown()) { 
-                Debug.Log("Call to Application.Exit()");
-                //Application.Exit(); 
-            }
-        }
     }
 
     /// <summary>

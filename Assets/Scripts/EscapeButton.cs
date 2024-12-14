@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI; 
-using UnityEngine; 
+using UnityEngine;
 
 public class EscapeButton : MonoBehaviour
 {
@@ -13,7 +13,7 @@ public class EscapeButton : MonoBehaviour
                 Util.HidePopUps();
             } else {
                 Util.ShowQuestion("Would you like to quit the game? You will lose progress thus far!", "Yes (leave)", "No (stay)", () => {
-                    //Application.Exit();
+                    Application.Quit();
                 },
                 () => { 
                     Util.HideQuestions(); 
