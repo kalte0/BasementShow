@@ -13,14 +13,21 @@ Create a new project in Unity and replace its Assets folder with this one. Then,
 Movement: WASD. 
 To interact with the environment: Click the object of interest to investigate. 
 To leave a pop-up: Press the escape key on your keyboard. 
-To exit the game: Click the Escape button on the screen, and answer "yes" to the prompt. 
+To exit the game: Click the Escape button on the screen, and answer "yes" to the prompt, or press escape when no dialogue or pop-up is on screen. 
 
 **Features:**
+
+
+https://github.com/user-attachments/assets/a367c465-1a3a-426b-90c4-4b672ebc6704
 
 - _Controllable 2D character with 4 directional sprites_
 
   Implemented in EleanorMovement.cs. The big challenge in this was figuring out how to make the player not go through walls-- simple on paper, but hard in execution. I ended up using an approach with RayCasting. Depending on the direction of movement, Eleanor's sprite changes
 between facing up, down, left and right. 
+
+
+https://github.com/user-attachments/assets/bad6988e-127c-4bf7-bd90-bf4e7e049d1e
+
 
 - _Dialogue System_
 
@@ -41,4 +48,8 @@ on the screen which prevent the user from clicking on anything else in the scene
   In an effort to make this game more scalable / Expandable at a later point, I made the Inventory system more robust than it had any right to be for this assignment.
   The inventory is now a static class which adds and removes the items from an underlying list. Additionally, the Inventory displays the received key in the demo on the screen. 
 
+
+https://github.com/user-attachments/assets/5aa22e7d-0182-40b4-840e-ad9c9df49280
+
+You won't want to leave!!
 
