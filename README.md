@@ -1,4 +1,5 @@
-![IMG_1112](https://github.com/user-attachments/assets/97159748-526b-4e82-a382-5e8435924a4e)
+![BasementShowPreviewPicture](https://github.com/user-attachments/assets/fcb358fc-0757-4378-94e9-c9cb92973096)
+
 Welcome to **Basement Show!**
 
 A creative project / Narrative point and click adventure game. 
