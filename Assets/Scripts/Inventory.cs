@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI; 
 using UnityEngine;
 
 public static class Inventory
@@ -14,6 +15,7 @@ public static class Inventory
     
     public static void AddItem(string item) { 
         inventory.Add(item); 
+        GameObject.Find("Canvas/Inventory/Slot/Key").GetComponent<Image>().enabled = true; 
     }
 
     public static void RemoveItem(string item) {
